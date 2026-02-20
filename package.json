@@ -1,0 +1,24 @@
+{
+  "name": "delegatecall-surface-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional-grade EVM delegatecall surface scanner with opcode-level analysis, HTTP API, CLI, and web UI.",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "backend:dev": "npm --workspace backend run dev",
+    "backend:build": "npm --workspace backend run build",
+    "backend:start": "npm --workspace backend start",
+    "frontend:dev": "npm --workspace frontend run dev",
+    "frontend:build": "npm --workspace frontend run build",
+    "frontend:start": "npm --workspace frontend start",
+    "lint": "npm --workspace backend run lint && npm --workspace frontend run lint",
+    "test": "npm --workspace backend test"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+

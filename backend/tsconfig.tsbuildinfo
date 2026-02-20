@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/analysis/cfg.ts","./src/analysis/delegatescanner.ts","./src/analysis/graphgenerator.ts","./src/analysis/opcodes.ts","./src/analysis/proxypatterns.ts","./src/analysis/stacktracer.ts","./src/analysis/targetclassifier.ts","./src/cli/main.ts","./src/server/server.ts","./src/services/bytecodeloader.ts","./src/types/analysis.ts"],"version":"5.9.3"}

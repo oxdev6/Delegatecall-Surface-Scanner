@@ -1,0 +1,35 @@
+{
+  "name": "delegatecall-surface-backend",
+  "version": "1.0.0",
+  "description": "Delegatecall Surface Scanner analysis engine, HTTP API, and CLI.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "delegate-scan": "dist/cli/main.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "ts-node-dev --respawn --transpile-only src/server/server.ts",
+    "start": "node dist/server/server.js",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ethers": "^6.13.4",
+    "express": "^4.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
+
